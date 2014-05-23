@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_simple_sales'
-  s.version     = '2.5.0'
+  s.version     = '2.5.1'
   s.summary     = 'Sale price for Spree'
   s.description = 'Adds a field to add add a sale price to variants'
   s.required_ruby_version = '>= 1.9.3'
