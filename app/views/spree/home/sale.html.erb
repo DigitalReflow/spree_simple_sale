@@ -1,3 +1,30 @@
-<div data-hook="homepage_products">
-  <%= render 'spree/shared/products', :products => @products %>
-</div>
+<section id="wrapper" class="row">
+  <aside id="sidebar" class="columns large-3">
+    <div data-hook="taxon_sidebar_navigation">
+      <%= render :partial => 'spree/shared/taxonomies' %>
+    </div>
+  </aside>
+  <div class="large-9 columns">
+    <div class="row sub-header">
+      <header class="large-12 columns">
+        <div class="row">
+          <div class="large-7 columns">
+            <h1 class="taxon-title">SALE</h1>
+          </div>
+          <div class="large-5 columns">
+            <div class="home-selling-points taxon-free-delivery free-delivery-strapline">
+              <h4><i class="icon-truck"></i>Free Delivery <span class="light">over &pound;20</span></h4>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h6 class="taxon-description">
+          <p>Check out our Sale collection for the best discounts available across our whole top-quality collection. Take advantage of vibrators, strap ons, bondage gear, sexy gifts and much more at amazing low prices. Enjoy our deals plus discreet packaging and FREE delivery.</p>
+        </h6>
+      </header>
+    </div>
+    <div data-hook="homepage_products">
+      <%= render 'spree/shared/products', :products => @products %>
+    </div>
+  </div>
+</section>

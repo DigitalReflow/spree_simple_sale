@@ -1,3 +1,3 @@
 Spree::Core::Engine.routes.draw do
-  get "/sale" => "home#sale"
+  get "/sale", to: "home#sale"
 end
