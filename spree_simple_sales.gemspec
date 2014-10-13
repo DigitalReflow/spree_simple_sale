@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_simple_sales'
-  s.version     = '2.2.3'
+  s.version     = '2.3.4'
   s.summary     = 'Sale price for Spree'
   s.description = 'Adds a field to add add a sale price to variants'
   s.required_ruby_version = '>= 1.9.3'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.2.2'
+  s.add_dependency 'spree_core', '~> 2.3.4.beta'
 
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'coffee-rails'
